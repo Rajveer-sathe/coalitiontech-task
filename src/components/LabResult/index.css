@@ -1,0 +1,58 @@
+.lab_results_container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1rem;
+  }
+  
+  .lab_results_data {
+    position: relative;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: auto; 
+    height: 100%;
+  }
+  
+  .lab_results_data::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .lab_results_data::-webkit-scrollbar-track {
+    background: #e3e4e6;
+  }
+  
+  .lab_results_data::-webkit-scrollbar-thumb {
+    background: #072635; 
+    border-radius: 8px;
+  }
+  
+  .lab_results_data ul {
+    list-style: none;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 94%;
+  }
+  
+  .lab_results_data ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    color: #072635;
+    width: 100%;
+    padding: 0.6rem;
+  }
+  
+  .lab_results_data ul img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .lab_results_data ul li:nth-child(2) {
+    background-color: #f6f7f8;
+  }
+  

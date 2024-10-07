@@ -1,0 +1,155 @@
+.diagnosis_history_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.diagnosis_history_container .heading {
+  font-size: 24px;
+  margin-bottom: 2rem;
+  align-self: self-start;
+}
+
+.patient_diagnostic {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.chart {
+  background: #f4f0fe;
+  border-radius: 12px;
+  width: 100%;
+  padding: 0.8rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.patient_data_card {
+  background: #e0f3fa;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 30%;
+}
+
+.patient_data_card img {
+  width: 70px;
+  height: 70px;
+}
+
+.other_data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.patient_data_card .name {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #072635;
+  margin: 0.4rem 0;
+}
+
+.patient_data_card .value {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.patient_data_card .extra {
+  font-size: 12px;
+}
+
+.diagnosis_history_left {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 65%;
+}
+
+.chart_heading_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+.chart_container {
+  display: flex;
+}
+.chart_heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+.diagnosis_history_right {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.systolic_info_container,
+.diastolic_info_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 14px;
+  gap: 0.6rem;
+}
+
+.systolic_title,
+.diastolic_title {
+  display: flex;
+  gap: 0.6rem;
+  font-weight: bold;
+}
+
+.systolic_circle,
+.diastolic_circle {
+  background-color: #e66fd2;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+}
+
+.diastolic_circle {
+  background-color: #8c6fe6;
+}
+.systolic_value,
+.diastolic_value {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.disgnostic_hr {
+  width: 100%;
+  height: 1px;
+  background-color: #cbc8d4;
+}
+
+.systolic_info_container .extra_info,
+.diastolic_info_container .extra_info {
+  display: flex;
+  align-items: center;
+}
+
+.systolic_info_container .extra_info img,
+.diastolic_info_container .extra_info img {
+  width: 10px;
+  height: 5px;
+  margin-right: 5px;
+}
+.measure {
+  font-size: 14px;
+}

@@ -1,0 +1,57 @@
+.selected_patient_conatiner {
+    width: 100%;
+  }
+  
+  .selected_patient_conatiner .patient_img_conatiner img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .selected_patient_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .patient_img_conatiner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  
+  .selected_patient_info .icon img {
+    width: 42px;
+    height: 42px;
+  }
+  
+  .selected_patient_info .patient_info {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .selected_patient_info .patient_info .info_value {
+    font-weight: bold;
+    color: #000;
+    white-space: nowrap;
+  }
+  
+  .btn{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+      margin-top: 1.4rem;
+  }
+  .btn button {
+      background: #01F0D0;
+      padding: 1rem;
+      border-radius: 2rem;
+      border: none;
+      font-size: 14px;
+      font-weight: bold;
+  }
