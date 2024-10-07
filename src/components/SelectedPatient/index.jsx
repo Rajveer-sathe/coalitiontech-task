@@ -9,8 +9,7 @@ import "./index.css";
 const SelectedPatientComp = ({ showData }) => {
   return (
     <div className="selected_patient_conatiner">
-      {showData &&
-        showData.length &&
+      {showData && showData.length ? (
         showData.map((item, i) => {
           return (
             <Fragment key={i}>
@@ -59,13 +58,15 @@ const SelectedPatientComp = ({ showData }) => {
                   </div>
                 </div>
               </div>
+              <div className="btn">
+                <button>Show All Information</button>
+              </div>
             </Fragment>
           );
-        })}
-
-      <div className="btn">
-        <button>Show All Information</button>
-      </div>
+        })
+      ) : (
+        <div className="loading">Loading...</div>
+      )}
     </div>
   );
 };
