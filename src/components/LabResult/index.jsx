@@ -8,8 +8,7 @@ function LabResultComp({ showData }) {
       <div className="heading">Lab Results</div>
       <div className="lab_results_data">
         <ul>
-          {showData &&
-            showData.length &&
+          {showData && showData.length ? (
             showData.map((item, i) => {
               return (
                 <ul key={i}>
@@ -25,7 +24,10 @@ function LabResultComp({ showData }) {
                     })}
                 </ul>
               );
-            })}
+            })
+          ) : (
+            <div className="loading">Loading...</div>
+          )}
         </ul>
       </div>
     </div>
